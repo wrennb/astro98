@@ -13,4 +13,4 @@ def leap_year(year):
 
 # Testing code:
 year = 2024
-print(leap_year(year))  # Output: True
+print(leap_year(year)) 

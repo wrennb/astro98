@@ -1,7 +1,7 @@
 # Minimum value using a for loop
 def find_min_for(num):
     if not num:
-        return None  # When list is empty
+        return None  # When the list is empty
     
     min_for = num[0]
     for i in num:
@@ -12,7 +12,7 @@ def find_min_for(num):
 # Minimum value using a while loop
 def find_min_while(num):
     if not num:
-        return None  # When list is empty
+        return None  # When the list is empty
     
     min_while = num[0]
     i = 1
@@ -25,7 +25,7 @@ def find_min_while(num):
 # Maximum value using a for loop
 def find_max_for(num):
     if not num:
-        return None  # When list is empty
+        return None  # When the list is empty
     
     max_for = num[0]
     for i in num:
@@ -36,7 +36,7 @@ def find_max_for(num):
 # Maximum value using a while loop
 def find_max_while(num):
     if not num:
-        return None  # When list is empty
+        return None  # When the list is empty
     
     max_while = num[0]
     i = 1

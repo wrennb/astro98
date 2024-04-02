@@ -6,6 +6,6 @@ def vowel_count(input_str):
             count += 1
     return count
 
-# Example usage:
+# Testing code:
 input_str = "UC Berkeley"
-print(vowel_count(input_str))  # Output: 4
+print(vowel_count(input_str)) 

@@ -1,4 +1,4 @@
-def digital_root(n):
+def root(n):
     sum = 0
     while n > 0:
         sum += n % 10
@@ -7,4 +7,4 @@ def digital_root(n):
 
 # Testing code:
 n = 12345
-print(digital_root(n))  
+print(root(n))  
